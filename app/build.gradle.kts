@@ -6,6 +6,10 @@ plugins {
 android {
     namespace = "com.elia.assistant"
     compileSdk = 35
+compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
     defaultConfig {
         applicationId = "com.elia.assistant"
         minSdk = 26
